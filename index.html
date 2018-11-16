@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="ToDo" content="To Do List">
+        <meta name="author" content="Filip Skowron">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="container" id="heading">
+            <h1>Rzeczy do zrobienia</h1>
+        </div>
+            <div class="step-1">
+                <h2>Wpisz rzeczy do zrobienia</h2>
+            </div>
+            <div class="step-2">
+                <h3>Zaznacz rzecz jako zrobioną</h3>
+            </div>
+            <div class="step-3">
+                <h4>Naciśnij "X" żeby usunąć przedmiot z listy</h4>
+            </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="Nowa rzecz..." maxlength="32">
+                <button id="enter"><i class="icon ion-md-brush"></i></button>
+            </div>      
+        </div>
+        
+        <!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+
+	<script type="text/javascript" src="todo.js""></script>
+
+    </body>
+</html>
